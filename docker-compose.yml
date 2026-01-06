@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  dataset-gen:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      NUM_SAMPLES: 2
+    volumes:
+      - ./output:/workspace/output 
