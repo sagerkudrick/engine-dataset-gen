@@ -44,8 +44,6 @@ WORKDIR /workspace
 
 COPY engine-dataset-gen.blend dataset-gen.py /workspace/
 
-ENV NUM_SAMPLES=2
-# Force CPU rendering to avoid GPU issues
-ENV CYCLES_DEVICE=CPU
+ENV NUM_SAMPLES=5
 
 CMD ["blender", "--background", "engine-dataset-gen.blend", "--python", "dataset-gen.py"]

@@ -5,6 +5,6 @@ services:
       context: .
       dockerfile: Dockerfile
     environment:
-      NUM_SAMPLES: 2
+      NUM_SAMPLES: 5
     volumes:
       - ./output:/workspace/output 

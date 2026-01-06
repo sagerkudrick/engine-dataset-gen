@@ -1,0 +1,17 @@
+{
+  "artifact_type": "dataset",
+  "dataset_name": "rotated_sketchfab_20260106_224010_0b47122e",
+  "dataset_version": "v1.0",
+  "generated_at": "2026-01-06T22:40:28.643597",
+  "num_samples": 5,
+  "generator": {
+    "blender_version": "5.0.1",
+    "script_name": "dataset-gen.py",
+    "object_name": "Sketchfab_model",
+    "lights": [
+      "Point.001",
+      "Point.002",
+      "Point.003"
+    ]
+  }
+}
